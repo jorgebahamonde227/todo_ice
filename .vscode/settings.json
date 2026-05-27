@@ -1,0 +1,36 @@
+{
+  // 💡 Configuración del Editor y Formateo
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "always",
+    "source.organizeImports": "always"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.wordWrap": "on",
+
+  // 🔍 Interfaz Visual y Guías
+  "editor.minimap.enabled": false,
+  "editor.guides.bracketPairs": "active",
+  "editor.bracketPairColorization.enabled": true,
+  "editor.renderWhitespace": "trailing",
+  "editor.lineNumbers": "on",
+
+  // 🚀 Rendimiento y Archivos
+  "files.autoSave": "onFocusChange",
+  "files.eol": "\n",
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "files.exclude": {
+    "**/.git": true,
+    "**/.DS_Store": true,
+    "**/node_modules": true,
+    "**/dist": true,
+    "**/.next": true
+  },
+
+  // 🛠️ Terminal Integrada
+  "terminal.integrated.scrollback": 10000,
+  "terminal.integrated.cursorBlinking": true
+}
